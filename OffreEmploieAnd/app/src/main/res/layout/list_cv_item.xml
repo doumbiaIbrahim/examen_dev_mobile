@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/cvListItem_nom"
+        android:layout_margin="20dp"
+        android:text="Cv name"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:paddingBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <TextView
+        android:id="@+id/cvListItem_prenom"
+        android:layout_marginStart="20dp"
+        android:text="Cv lastname"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingBottom="5dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/cvListItem_nom"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <TextView
+        android:id="@+id/cvListItem_age"
+        android:layout_marginStart="20dp"
+        android:text="Cv Age"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:paddingBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/cvListItem_prenom"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <TextView
+        android:id="@+id/cvListItem_adresse"
+        android:layout_marginStart="20dp"
+        android:text="Cv Adresse"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:paddingBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/cvListItem_age"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <TextView
+        android:id="@+id/cvListItem_email"
+        android:layout_marginStart="20dp"
+        android:text="Cv Email"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:paddingBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/cvListItem_adresse"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <TextView
+        android:id="@+id/cvListItem_telephone"
+        android:layout_marginStart="20dp"
+        android:text="Cv Telephone"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:paddingBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/cvListItem_email"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <TextView
+        android:id="@+id/cvListItem_specialite"
+        android:layout_margin="20dp"
+        android:text="Cv Specialite"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:paddingBottom="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+    <TextView
+        android:id="@+id/cvListItem_niveau"
+        android:layout_marginEnd="20dp"
+        android:text="Cv Niveau"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:paddingBottom="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/cvListItem_specialite"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView
+        android:id="@+id/cvListItem_experience"
+        android:layout_marginEnd="20dp"
+        android:text="Cv Experience"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:paddingBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/cvListItem_niveau"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
